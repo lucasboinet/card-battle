@@ -8,13 +8,14 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "preserve",
 
+    "types": ["element-plus/global"],
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
